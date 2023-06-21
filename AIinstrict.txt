@@ -1,0 +1,24 @@
+
+with python,
+read file daraz.html and parse it with Beautifulsoup
+
+find all
+div with class="inner--SODwy"
+find all the divs
+
+try find div with class="title--wFj93" and store it to product_name
+except product_name=''
+
+try find span with class="currency--GVKjl" and store it to current_price
+except current_price =''
+
+try find del with class="currency--GVKjl" and store it to previuos_price
+except previuos_price = ''
+
+try find span with class="discount--HADrg" and store it to Discount
+except Discount = ''
+
+try find span with class="rating__review--ygkUy" and store it to Reviews
+except Reviews = ''
+
+open an excel file and write product_name, current_price, previuos_price, Discount, Reviews
